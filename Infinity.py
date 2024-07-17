@@ -1,2 +1,2 @@
-import test
-test.____Main___()
+import Infinity
+Infinity.____Main___()

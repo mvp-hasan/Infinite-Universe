@@ -2602,7 +2602,7 @@ static const char __pyx_k_1_47m[] = "\033[1;47m";
 static const char __pyx_k_April[] = "April";
 static const char __pyx_k_False[] = "False";
 static const char __pyx_k_First[] = "First";
-static const char __pyx_k_HASAN[] = "+[HASAN] \n";
+static const char __pyx_k_HASAN[] = "HASAN-\360\237\215\201";
 static const char __pyx_k_Hasan[] = "Hasan";
 static const char __pyx_k_Liger[] = "Liger";
 static const char __pyx_k_March[] = "March";
@@ -2674,11 +2674,11 @@ static const char __pyx_k_2_HASAN[] = "\033]2;[\342\230\205] HASAN\007";
 static const char __pyx_k_38_5_6m[] = "\033[38;5;6m";
 static const char __pyx_k_Agustus[] = "Agustus";
 static const char __pyx_k_EXAMPLE[] = "EXAMPLE ";
-static const char __pyx_k_HASAN_2[] = "HASAN-\360\237\215\201";
-static const char __pyx_k_HASAN_3[] = "___HASAN___";
+static const char __pyx_k_HASAN_2[] = "___HASAN___";
 static const char __pyx_k_January[] = "January";
 static const char __pyx_k_October[] = "October";
 static const char __pyx_k_VERSION[] = "VERSION    ";
+static const char __pyx_k_Version[] = "Version";
 static const char __pyx_k_android[] = "android";
 static const char __pyx_k_api_key[] = "api_key";
 static const char __pyx_k_disable[] = "disable";
@@ -2687,7 +2687,6 @@ static const char __pyx_k_genexpr[] = "genexpr";
 static const char __pyx_k_headers[] = "headers";
 static const char __pyx_k_randint[] = "randint";
 static const char __pyx_k_replace[] = "replace";
-static const char __pyx_k_version[] = "version";
 static const char __pyx_k_yelloww[] = "yelloww";
 static const char __pyx_k_38_5_38m[] = "\342\234\223 \033[38;5;38m";
 static const char __pyx_k_38_5_43m[] = "  \033[38;5;43m\n";
@@ -2824,7 +2823,8 @@ static const char __pyx_k_currently_logged_in_userid[] = "currently_logged_in_us
 static const char __pyx_k_PRESS_ENTER_GO_TO_HOME_PAGE[] = "PRESS ENTER GO TO HOME PAGE....  ";
 static const char __pyx_k_X_FB_Request_Analytics_Tags[] = "X-FB-Request-Analytics-Tags";
 static const char __pyx_k_device_based_login_password[] = "device_based_login_password";
-static const char __pyx_k_https_raw_githubusercontent_com[] = "https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/version.txt";
+static const char __pyx_k_Save_Bangladesh_Save_Bangladesh[] = " Save Bangladesh - Save Bangladeshi Students \n";
+static const char __pyx_k_https_raw_githubusercontent_com[] = "https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/Version.txt";
 static const char __pyx_k_1217981644879628_65a937f07619e8d[] = "1217981644879628|65a937f07619e8d4dce239c462a447ce";
 static const char __pyx_k_1479723375646806_afb3e4a6d8b8683[] = "1479723375646806|afb3e4a6d8b868314cc843c21eebc6ae";
 static const char __pyx_k_214242525262773_1aff16d0c4774caa[] = "214242525262773|1aff16d0c4774caa49d10fbfabb80cdf";
@@ -2970,8 +2970,7 @@ typedef struct {
   PyObject *__pyx_n_s_FileNotFoundError;
   PyObject *__pyx_n_s_First;
   PyObject *__pyx_kp_u_HASAN;
-  PyObject *__pyx_kp_u_HASAN_2;
-  PyObject *__pyx_n_s_HASAN_3;
+  PyObject *__pyx_n_s_HASAN_2;
   PyObject *__pyx_kp_u_HASAN_M2;
   PyObject *__pyx_kp_u_HASAN_OK;
   PyObject *__pyx_n_s_Hasan;
@@ -3015,6 +3014,7 @@ typedef struct {
   PyObject *__pyx_kp_u_SELECT_B;
   PyObject *__pyx_kp_u_SELECT_C;
   PyObject *__pyx_kp_u_SELECT_D;
+  PyObject *__pyx_kp_u_Save_Bangladesh_Save_Bangladesh;
   PyObject *__pyx_n_s_September;
   PyObject *__pyx_kp_u_THE_PROCESS_HAS_COMPLETE;
   PyObject *__pyx_kp_u_TODAY_DATE;
@@ -3029,6 +3029,7 @@ typedef struct {
   PyObject *__pyx_kp_s_User_Agent;
   PyObject *__pyx_kp_u_VERSION;
   PyObject *__pyx_n_s_ValueError;
+  PyObject *__pyx_n_s_Version;
   PyObject *__pyx_n_s_ViewerReactionsMutation;
   PyObject *__pyx_kp_u_Wrong_option;
   PyObject *__pyx_kp_s_X_FB_Client_IP;
@@ -3264,7 +3265,6 @@ typedef struct {
   PyObject *__pyx_n_s_uuid;
   PyObject *__pyx_n_s_uuid4;
   PyObject *__pyx_n_s_value;
-  PyObject *__pyx_n_s_version;
   PyObject *__pyx_n_s_warna;
   PyObject *__pyx_n_s_white;
   PyObject *__pyx_n_s_win;
@@ -3456,8 +3456,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_FileNotFoundError);
   Py_CLEAR(clear_module_state->__pyx_n_s_First);
   Py_CLEAR(clear_module_state->__pyx_kp_u_HASAN);
-  Py_CLEAR(clear_module_state->__pyx_kp_u_HASAN_2);
-  Py_CLEAR(clear_module_state->__pyx_n_s_HASAN_3);
+  Py_CLEAR(clear_module_state->__pyx_n_s_HASAN_2);
   Py_CLEAR(clear_module_state->__pyx_kp_u_HASAN_M2);
   Py_CLEAR(clear_module_state->__pyx_kp_u_HASAN_OK);
   Py_CLEAR(clear_module_state->__pyx_n_s_Hasan);
@@ -3501,6 +3500,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_u_SELECT_B);
   Py_CLEAR(clear_module_state->__pyx_kp_u_SELECT_C);
   Py_CLEAR(clear_module_state->__pyx_kp_u_SELECT_D);
+  Py_CLEAR(clear_module_state->__pyx_kp_u_Save_Bangladesh_Save_Bangladesh);
   Py_CLEAR(clear_module_state->__pyx_n_s_September);
   Py_CLEAR(clear_module_state->__pyx_kp_u_THE_PROCESS_HAS_COMPLETE);
   Py_CLEAR(clear_module_state->__pyx_kp_u_TODAY_DATE);
@@ -3515,6 +3515,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_kp_s_User_Agent);
   Py_CLEAR(clear_module_state->__pyx_kp_u_VERSION);
   Py_CLEAR(clear_module_state->__pyx_n_s_ValueError);
+  Py_CLEAR(clear_module_state->__pyx_n_s_Version);
   Py_CLEAR(clear_module_state->__pyx_n_s_ViewerReactionsMutation);
   Py_CLEAR(clear_module_state->__pyx_kp_u_Wrong_option);
   Py_CLEAR(clear_module_state->__pyx_kp_s_X_FB_Client_IP);
@@ -3750,7 +3751,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_uuid);
   Py_CLEAR(clear_module_state->__pyx_n_s_uuid4);
   Py_CLEAR(clear_module_state->__pyx_n_s_value);
-  Py_CLEAR(clear_module_state->__pyx_n_s_version);
   Py_CLEAR(clear_module_state->__pyx_n_s_warna);
   Py_CLEAR(clear_module_state->__pyx_n_s_white);
   Py_CLEAR(clear_module_state->__pyx_n_s_win);
@@ -3920,8 +3920,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_FileNotFoundError);
   Py_VISIT(traverse_module_state->__pyx_n_s_First);
   Py_VISIT(traverse_module_state->__pyx_kp_u_HASAN);
-  Py_VISIT(traverse_module_state->__pyx_kp_u_HASAN_2);
-  Py_VISIT(traverse_module_state->__pyx_n_s_HASAN_3);
+  Py_VISIT(traverse_module_state->__pyx_n_s_HASAN_2);
   Py_VISIT(traverse_module_state->__pyx_kp_u_HASAN_M2);
   Py_VISIT(traverse_module_state->__pyx_kp_u_HASAN_OK);
   Py_VISIT(traverse_module_state->__pyx_n_s_Hasan);
@@ -3965,6 +3964,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_u_SELECT_B);
   Py_VISIT(traverse_module_state->__pyx_kp_u_SELECT_C);
   Py_VISIT(traverse_module_state->__pyx_kp_u_SELECT_D);
+  Py_VISIT(traverse_module_state->__pyx_kp_u_Save_Bangladesh_Save_Bangladesh);
   Py_VISIT(traverse_module_state->__pyx_n_s_September);
   Py_VISIT(traverse_module_state->__pyx_kp_u_THE_PROCESS_HAS_COMPLETE);
   Py_VISIT(traverse_module_state->__pyx_kp_u_TODAY_DATE);
@@ -3979,6 +3979,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_kp_s_User_Agent);
   Py_VISIT(traverse_module_state->__pyx_kp_u_VERSION);
   Py_VISIT(traverse_module_state->__pyx_n_s_ValueError);
+  Py_VISIT(traverse_module_state->__pyx_n_s_Version);
   Py_VISIT(traverse_module_state->__pyx_n_s_ViewerReactionsMutation);
   Py_VISIT(traverse_module_state->__pyx_kp_u_Wrong_option);
   Py_VISIT(traverse_module_state->__pyx_kp_s_X_FB_Client_IP);
@@ -4214,7 +4215,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_uuid);
   Py_VISIT(traverse_module_state->__pyx_n_s_uuid4);
   Py_VISIT(traverse_module_state->__pyx_n_s_value);
-  Py_VISIT(traverse_module_state->__pyx_n_s_version);
   Py_VISIT(traverse_module_state->__pyx_n_s_warna);
   Py_VISIT(traverse_module_state->__pyx_n_s_white);
   Py_VISIT(traverse_module_state->__pyx_n_s_win);
@@ -4394,8 +4394,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_FileNotFoundError __pyx_mstate_global->__pyx_n_s_FileNotFoundError
 #define __pyx_n_s_First __pyx_mstate_global->__pyx_n_s_First
 #define __pyx_kp_u_HASAN __pyx_mstate_global->__pyx_kp_u_HASAN
-#define __pyx_kp_u_HASAN_2 __pyx_mstate_global->__pyx_kp_u_HASAN_2
-#define __pyx_n_s_HASAN_3 __pyx_mstate_global->__pyx_n_s_HASAN_3
+#define __pyx_n_s_HASAN_2 __pyx_mstate_global->__pyx_n_s_HASAN_2
 #define __pyx_kp_u_HASAN_M2 __pyx_mstate_global->__pyx_kp_u_HASAN_M2
 #define __pyx_kp_u_HASAN_OK __pyx_mstate_global->__pyx_kp_u_HASAN_OK
 #define __pyx_n_s_Hasan __pyx_mstate_global->__pyx_n_s_Hasan
@@ -4439,6 +4438,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_u_SELECT_B __pyx_mstate_global->__pyx_kp_u_SELECT_B
 #define __pyx_kp_u_SELECT_C __pyx_mstate_global->__pyx_kp_u_SELECT_C
 #define __pyx_kp_u_SELECT_D __pyx_mstate_global->__pyx_kp_u_SELECT_D
+#define __pyx_kp_u_Save_Bangladesh_Save_Bangladesh __pyx_mstate_global->__pyx_kp_u_Save_Bangladesh_Save_Bangladesh
 #define __pyx_n_s_September __pyx_mstate_global->__pyx_n_s_September
 #define __pyx_kp_u_THE_PROCESS_HAS_COMPLETE __pyx_mstate_global->__pyx_kp_u_THE_PROCESS_HAS_COMPLETE
 #define __pyx_kp_u_TODAY_DATE __pyx_mstate_global->__pyx_kp_u_TODAY_DATE
@@ -4453,6 +4453,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_kp_s_User_Agent __pyx_mstate_global->__pyx_kp_s_User_Agent
 #define __pyx_kp_u_VERSION __pyx_mstate_global->__pyx_kp_u_VERSION
 #define __pyx_n_s_ValueError __pyx_mstate_global->__pyx_n_s_ValueError
+#define __pyx_n_s_Version __pyx_mstate_global->__pyx_n_s_Version
 #define __pyx_n_s_ViewerReactionsMutation __pyx_mstate_global->__pyx_n_s_ViewerReactionsMutation
 #define __pyx_kp_u_Wrong_option __pyx_mstate_global->__pyx_kp_u_Wrong_option
 #define __pyx_kp_s_X_FB_Client_IP __pyx_mstate_global->__pyx_kp_s_X_FB_Client_IP
@@ -4688,7 +4689,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_uuid __pyx_mstate_global->__pyx_n_s_uuid
 #define __pyx_n_s_uuid4 __pyx_mstate_global->__pyx_n_s_uuid4
 #define __pyx_n_s_value __pyx_mstate_global->__pyx_n_s_value
-#define __pyx_n_s_version __pyx_mstate_global->__pyx_n_s_version
 #define __pyx_n_s_warna __pyx_mstate_global->__pyx_n_s_warna
 #define __pyx_n_s_white __pyx_mstate_global->__pyx_n_s_white
 #define __pyx_n_s_win __pyx_mstate_global->__pyx_n_s_win
@@ -4920,7 +4920,7 @@ static PyObject *__pyx_pf_8Infinity_logo(CYTHON_UNUSED PyObject *__pyx_self) {
   __pyx_t_6 += 178;
   __Pyx_GIVEREF(__pyx_kp_u__2);
   PyTuple_SET_ITEM(__pyx_t_2, 4, __pyx_kp_u__2);
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_gas); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 59, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_purple); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_1, __pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -4930,10 +4930,10 @@ static PyObject *__pyx_pf_8Infinity_logo(CYTHON_UNUSED PyObject *__pyx_self) {
   __Pyx_GIVEREF(__pyx_t_4);
   PyTuple_SET_ITEM(__pyx_t_2, 5, __pyx_t_4);
   __pyx_t_4 = 0;
-  __Pyx_INCREF(__pyx_kp_u_HASAN);
-  __pyx_t_6 += 10;
-  __Pyx_GIVEREF(__pyx_kp_u_HASAN);
-  PyTuple_SET_ITEM(__pyx_t_2, 6, __pyx_kp_u_HASAN);
+  __Pyx_INCREF(__pyx_kp_u_Save_Bangladesh_Save_Bangladesh);
+  __pyx_t_6 += 46;
+  __Pyx_GIVEREF(__pyx_kp_u_Save_Bangladesh_Save_Bangladesh);
+  PyTuple_SET_ITEM(__pyx_t_2, 6, __pyx_kp_u_Save_Bangladesh_Save_Bangladesh);
   __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_green); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 59, __pyx_L1_error)
@@ -10542,11 +10542,11 @@ static PyObject *__pyx_pf_8Infinity_8__MTDONE__(CYTHON_UNUSED PyObject *__pyx_se
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_2, 4, __pyx_t_3);
           __pyx_t_3 = 0;
-          __Pyx_INCREF(__pyx_kp_u_HASAN_2);
+          __Pyx_INCREF(__pyx_kp_u_HASAN);
           __pyx_t_7 = (1114111 > __pyx_t_7) ? 1114111 : __pyx_t_7;
           __pyx_t_9 += 7;
-          __Pyx_GIVEREF(__pyx_kp_u_HASAN_2);
-          PyTuple_SET_ITEM(__pyx_t_2, 5, __pyx_kp_u_HASAN_2);
+          __Pyx_GIVEREF(__pyx_kp_u_HASAN);
+          PyTuple_SET_ITEM(__pyx_t_2, 5, __pyx_kp_u_HASAN);
           __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_rad); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 161, __pyx_L3_error)
           __Pyx_GOTREF(__pyx_t_3);
           __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 161, __pyx_L3_error)
@@ -13511,8 +13511,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_FileNotFoundError, __pyx_k_FileNotFoundError, sizeof(__pyx_k_FileNotFoundError), 0, 0, 1, 1},
     {&__pyx_n_s_First, __pyx_k_First, sizeof(__pyx_k_First), 0, 0, 1, 1},
     {&__pyx_kp_u_HASAN, __pyx_k_HASAN, sizeof(__pyx_k_HASAN), 0, 1, 0, 0},
-    {&__pyx_kp_u_HASAN_2, __pyx_k_HASAN_2, sizeof(__pyx_k_HASAN_2), 0, 1, 0, 0},
-    {&__pyx_n_s_HASAN_3, __pyx_k_HASAN_3, sizeof(__pyx_k_HASAN_3), 0, 0, 1, 1},
+    {&__pyx_n_s_HASAN_2, __pyx_k_HASAN_2, sizeof(__pyx_k_HASAN_2), 0, 0, 1, 1},
     {&__pyx_kp_u_HASAN_M2, __pyx_k_HASAN_M2, sizeof(__pyx_k_HASAN_M2), 0, 1, 0, 0},
     {&__pyx_kp_u_HASAN_OK, __pyx_k_HASAN_OK, sizeof(__pyx_k_HASAN_OK), 0, 1, 0, 0},
     {&__pyx_n_s_Hasan, __pyx_k_Hasan, sizeof(__pyx_k_Hasan), 0, 0, 1, 1},
@@ -13556,6 +13555,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_u_SELECT_B, __pyx_k_SELECT_B, sizeof(__pyx_k_SELECT_B), 0, 1, 0, 0},
     {&__pyx_kp_u_SELECT_C, __pyx_k_SELECT_C, sizeof(__pyx_k_SELECT_C), 0, 1, 0, 0},
     {&__pyx_kp_u_SELECT_D, __pyx_k_SELECT_D, sizeof(__pyx_k_SELECT_D), 0, 1, 0, 0},
+    {&__pyx_kp_u_Save_Bangladesh_Save_Bangladesh, __pyx_k_Save_Bangladesh_Save_Bangladesh, sizeof(__pyx_k_Save_Bangladesh_Save_Bangladesh), 0, 1, 0, 0},
     {&__pyx_n_s_September, __pyx_k_September, sizeof(__pyx_k_September), 0, 0, 1, 1},
     {&__pyx_kp_u_THE_PROCESS_HAS_COMPLETE, __pyx_k_THE_PROCESS_HAS_COMPLETE, sizeof(__pyx_k_THE_PROCESS_HAS_COMPLETE), 0, 1, 0, 0},
     {&__pyx_kp_u_TODAY_DATE, __pyx_k_TODAY_DATE, sizeof(__pyx_k_TODAY_DATE), 0, 1, 0, 0},
@@ -13570,6 +13570,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_kp_s_User_Agent, __pyx_k_User_Agent, sizeof(__pyx_k_User_Agent), 0, 0, 1, 0},
     {&__pyx_kp_u_VERSION, __pyx_k_VERSION, sizeof(__pyx_k_VERSION), 0, 1, 0, 0},
     {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
+    {&__pyx_n_s_Version, __pyx_k_Version, sizeof(__pyx_k_Version), 0, 0, 1, 1},
     {&__pyx_n_s_ViewerReactionsMutation, __pyx_k_ViewerReactionsMutation, sizeof(__pyx_k_ViewerReactionsMutation), 0, 0, 1, 1},
     {&__pyx_kp_u_Wrong_option, __pyx_k_Wrong_option, sizeof(__pyx_k_Wrong_option), 0, 1, 0, 0},
     {&__pyx_kp_s_X_FB_Client_IP, __pyx_k_X_FB_Client_IP, sizeof(__pyx_k_X_FB_Client_IP), 0, 0, 1, 0},
@@ -13805,7 +13806,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_uuid, __pyx_k_uuid, sizeof(__pyx_k_uuid), 0, 0, 1, 1},
     {&__pyx_n_s_uuid4, __pyx_k_uuid4, sizeof(__pyx_k_uuid4), 0, 0, 1, 1},
     {&__pyx_n_s_value, __pyx_k_value, sizeof(__pyx_k_value), 0, 0, 1, 1},
-    {&__pyx_n_s_version, __pyx_k_version, sizeof(__pyx_k_version), 0, 0, 1, 1},
     {&__pyx_n_s_warna, __pyx_k_warna, sizeof(__pyx_k_warna), 0, 0, 1, 1},
     {&__pyx_n_s_white, __pyx_k_white, sizeof(__pyx_k_white), 0, 0, 1, 1},
     {&__pyx_n_s_win, __pyx_k_win, sizeof(__pyx_k_win), 0, 0, 1, 1},
@@ -13979,7 +13979,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   /* "Infinity.py":52
  * today = '\x1b[38;5;46m'+str(hari)+'\033[1;97m-\x1b[38;5;46m'+str(bulan)+''
  * #[ UA SERVER]#
- * version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/version.txt").text.strip()             # <<<<<<<<<<<<<<
+ * Version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/Version.txt").text.strip()             # <<<<<<<<<<<<<<
  * M1 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M1.txt").text.strip()
  * M2 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M2.txt").text.strip()
  */
@@ -13989,7 +13989,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "Infinity.py":53
  * #[ UA SERVER]#
- * version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/version.txt").text.strip()
+ * Version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/Version.txt").text.strip()
  * M1 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M1.txt").text.strip()             # <<<<<<<<<<<<<<
  * M2 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M2.txt").text.strip()
  * #[ BANNER/LOGO ]#
@@ -13999,7 +13999,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__45);
 
   /* "Infinity.py":54
- * version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/version.txt").text.strip()
+ * Version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/Version.txt").text.strip()
  * M1 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M1.txt").text.strip()
  * M2 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M2.txt").text.strip()             # <<<<<<<<<<<<<<
  * #[ BANNER/LOGO ]#
@@ -14034,7 +14034,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     logo()
  *     print(f'{rad}[{white}SELECT A{rad}] {green}FILE CLONE')
  */
-  __pyx_tuple__49 = PyTuple_Pack(1, __pyx_n_s_HASAN_3); if (unlikely(!__pyx_tuple__49)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_tuple__49 = PyTuple_Pack(1, __pyx_n_s_HASAN_2); if (unlikely(!__pyx_tuple__49)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__49);
   __Pyx_GIVEREF(__pyx_tuple__49);
   __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Infinity_py, __pyx_n_s_Main, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) __PYX_ERR(0, 80, __pyx_L1_error)
@@ -15423,7 +15423,7 @@ if (!__Pyx_RefNanny) {
  * tahun = now.year
  * today = '\x1b[38;5;46m'+str(hari)+'\033[1;97m-\x1b[38;5;46m'+str(bulan)+''             # <<<<<<<<<<<<<<
  * #[ UA SERVER]#
- * version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/version.txt").text.strip()
+ * Version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/Version.txt").text.strip()
  */
   __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_hari); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 50, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
@@ -15454,7 +15454,7 @@ if (!__Pyx_RefNanny) {
   /* "Infinity.py":52
  * today = '\x1b[38;5;46m'+str(hari)+'\033[1;97m-\x1b[38;5;46m'+str(bulan)+''
  * #[ UA SERVER]#
- * version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/version.txt").text.strip()             # <<<<<<<<<<<<<<
+ * Version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/Version.txt").text.strip()             # <<<<<<<<<<<<<<
  * M1 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M1.txt").text.strip()
  * M2 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M2.txt").text.strip()
  */
@@ -15475,12 +15475,12 @@ if (!__Pyx_RefNanny) {
   __pyx_t_8 = __Pyx_PyObject_CallNoArg(__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 52, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_version, __pyx_t_8) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Version, __pyx_t_8) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
   /* "Infinity.py":53
  * #[ UA SERVER]#
- * version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/version.txt").text.strip()
+ * Version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/Version.txt").text.strip()
  * M1 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M1.txt").text.strip()             # <<<<<<<<<<<<<<
  * M2 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M2.txt").text.strip()
  * #[ BANNER/LOGO ]#
@@ -15506,7 +15506,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "Infinity.py":54
- * version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/version.txt").text.strip()
+ * Version = httpx.get("https://raw.githubusercontent.com/mvp-hasan/Infinite-Universe/main/Version.txt").text.strip()
  * M1 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M1.txt").text.strip()
  * M2 = httpx.get("https://raw.githubusercontent.com/Safe-Ever/Tool-Menu/main/M2.txt").text.strip()             # <<<<<<<<<<<<<<
  * #[ BANNER/LOGO ]#
